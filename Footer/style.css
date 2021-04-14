@@ -1,0 +1,40 @@
+footer{
+  background-color: #FF9F3E;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  color: white;
+  margin-top: 30px;
+}
+
+footer a{
+  text-decoration: none;
+  font-size: 16px;
+  color: white;
+}
+footer ul{
+  padding: 20px;
+  margin: 0 auto;
+}
+footer li{
+  list-style-type: none;
+  margin: 2px 5px;
+}
+form{
+  margin-top: 10px;
+}
+input{
+  outline: none;
+  padding: 5px;
+  width: 100%;
+}
+input[type=submit] {
+  width: 100%;
+  background-color: #ffffff;
+  color: #FF9F3E;
+  padding: 5px 20px;
+  margin: 2px 0;
+  cursor: pointer;
+}
+i{
+  padding-right: 10px;
+}
