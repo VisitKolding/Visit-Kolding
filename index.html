@@ -4,9 +4,113 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Visit Kolding</title>
+  <title>Document</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
+
+
 </head>
 <body>
-  <h1>Pandekager med jordbær</h1>
+  <nav>
+    <img src="images/kolding_billede.jpg" alt="Logo">
+    <a href="#" class="Oplev-Danmark">Oplev Danmark</a>
+    <div class="dropdown">
+      <button class="dropbtn">Hverdagen i Kolding 
+        <i class="fa fa-caret-down"></i>
+      </button>
+      <div class="dropdown-content">
+        <a href="#">At bo i Kolding </a>
+        <a href="#">Trafik</a>
+        <a href="#">Foreningsliv</a>
+        <a href="#">Natteliv</a>
+        <a href="#">Børneliv</a>
+      </div>
+    </div>
+    <div class="dropdown">
+      <button class="dropbtn">Oplevelser
+        <i class="fa fa-caret-down"></i>
+      </button>
+      <div class="dropdown-content">
+        <a href="#">Geografisk have</a>
+        <a href="#">Historiske bygninger </a>
+        <a href="#">Seværdigheder</a>
+        <a href="#">Havnen</a>
+        <a href="#">Gågaden</a>
+        <a href="#">Kolding som design by </a>
+      </div>
+    </div> 
+  </nav>
+  <header id="Forside-header">
+    <h1 id="Forside-h1">VISIT KOLDING</h1>
+  </header>
+  <main id="Forside-main">
+    <h2>Oplev Kolding</h2>
+    <section id="Forside-grid">
+      <button id="background-color-green">
+        <a href=""><i class="fa fa-leaf"></i>Natur</a>
+      </button>
+      <button id="background-color-yellow">
+        <a href=""><i class="fa fa-bank"></i>Seværdigheder</a>
+      </button>
+      <button id="background-color-blue">		
+        <a href=""><i class="fa fa-anchor"></i>Havnen</a>
+      </button>
+      <button id="background-color-purple">
+        <a href=""><i class="fa fa-shopping-bag"></i>Gågaden</a>
+      </button>
+      <button id="background-color-pink">
+        <a href=""><i class="fas fa-house-user"></i>Tilflyttere</a>
+      </button>
+      <button id="background-color-orange">
+        <a href=""><i class="fas fa-car"></i>Trafik</a>
+      </button>
+      <button id="background-color-red">
+        <a href=""><i class="fas fa-baby"></i>Børneliv</a>
+      </button>
+      <button id="background-color-darkblue">
+        <a href=""><i class="fas fa-cloud-moon"></i>Natteliv</a>
+      </button>
+    </section>
+    <section id="Forside-kort">
+      <iframe width="1000" height="600" style="border:0" loading="lazy" allowfullscreen src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJqZXdASqgTEYR_czvbvrjjeo&key=AIzaSyA73FNUHDvKPnmHzPT5GPEWNBZDnTxZhr4"></iframe>     
+    </section>
+  </main>
+  <footer>
+    <ul>
+      <h4>Oplevelser</h4>
+      <li><a href="#">Geografisk have</a></li>
+      <li><a href="#">Historiske bygninger</a></li>
+      <li><a href="#">Seværdigheder</a></li>
+      <li><a href="#">Havnen</a></li>
+      <li><a href="#">Gågaden</a></li>
+      <li><a href="#">Kolding som desgin by</a></li> 
+    </ul>
+    <ul>
+      <h4>Hverdagen i Kolding</h4>
+      <li><a href="#">At bo i Kolding</a></li>
+      <li><a href="#">Trafik</a></li>
+      <li><a href="#">Foreningsliv</a></li>
+      <li><a href="#">Natteliv</a></li>
+      <li><a href="#">Børneliv</a></li>
+    </ul>
+    <ul id="Kontakt-os">
+      <h4>Kontakt os</h4>
+      <li><a href="mailto:Kontakt@VisitKolding.dk"><i class="fas fa-at"></i>Mail os - Kontakt@VisitKolding.dk</a></li>
+      <li><a href="tel:78 33 21 11"><i class="fas fa-headset"></i>Ring til os - +45 78 33 21 11</a></li>
+      <li><a href="#"><i class="fab fa-facebook-square"></i>Find os på Facebook - </a>
+      <li><a href="#"><i class="fab fa-youtube"></i>Se vores videoer</a></li>
+      <li>
+        <form action="/action_page.php">
+          <label for="fname">Tilmed dig nyhedsbrevet</label><br>
+          <input type="email" placeholder="Skriv din email"><br>
+          <input type="submit" value="Tilmed">
+        </form></li>
+    </ul>
+  </footer>
 </body>
 </html>
+
+
+
+
