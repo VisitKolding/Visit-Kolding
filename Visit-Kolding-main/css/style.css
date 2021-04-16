@@ -1,0 +1,856 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+nav {
+  background-color: #FF9F3E;
+  height: 70px;
+}
+nav img{
+  height: 70px;
+}
+.dropdown {
+  float: right;
+}
+
+.dropdown .dropbtn {
+  font-size: 20px;  
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  height: 70px;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn, .Oplev-Danmark:hover{
+  color: rgb(235, 235, 235);
+  cursor: pointer;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 20px 30px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+  font-size: 18px;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+.oplev-Danmark{
+  font-size: 20px;  
+  color: white;
+  padding: 22px 16px;
+  float: right;
+  text-decoration: none;
+}
+#Forside-header{
+  background-image: url(../images/silhouette-5582156_1920.jpg);
+  padding: 100px;
+  width: 100%;
+  background-size: 100%;
+  background-position: center;
+}
+#Forside-h1{
+  color: white;
+  font-size: 80px;
+  font-weight: bold;  
+  text-align: center;
+  padding: 50px;
+  border: 6px solid white;
+}
+#Forside-grid{
+  display: grid;
+  grid-template-columns: 11vw 11vw 11vw 11vw;
+  gap: 1vw;
+  padding-bottom: 5em;
+  width: 48vw;
+  margin: 0 auto;
+}
+
+#Forside-main h2{
+  font-size: 45px;
+  font-weight: bold;
+  text-align: center;
+  padding: 10px;
+  padding-top: 50px;
+  color: #FF9F3E;
+}
+#Forside-main button{
+  width: 100%;
+  height: 11vw;
+  border: none;
+  outline: none;
+}
+#Forside-main i{
+  color: white;
+  font-size: 5vw;
+  padding: 25px 45px;
+}
+#Forside-main a{
+  color: white;
+  font-size: 20px;
+  text-decoration: none;
+  text-align: center;
+  font-weight: bold;
+}
+
+#background-color-green{
+  background-color: rgb(92, 252, 119);
+}
+#background-color-yellow{
+  background-color: rgb(1, 255, 170);
+}
+#background-color-blue{
+  background-color: rgb(120, 190, 247);
+}
+#background-color-purple{
+  background-color: rgb(180, 92, 252);
+}
+#background-color-pink{
+  background-color: rgb(247, 120, 241);
+}
+#background-color-orange{
+  background-color: rgb(247, 192, 120);
+}
+#background-color-red{
+  background-color: rgb(247, 120, 120);
+}
+#background-color-darkblue{
+  background-color: rgb(83, 71, 255);
+}
+#Forside-kort{
+  margin: 0 auto;
+  width: 1000px;
+  height: 600px;
+}
+footer{
+  background-color: #FF9F3E;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  color: white;
+  margin-top: 30px;
+}
+
+footer a{
+  text-decoration: none;
+  font-size: 16px;
+  color: white;
+}
+footer ul{
+  padding: 20px;
+  margin: 0 auto;
+}
+footer li{
+  list-style-type: none;
+  margin: 2px 5px;
+}
+form{
+  margin-top: 10px;
+}
+input{
+  outline: none;
+  padding: 5px;
+  width: 100%;
+}
+input[type=submit] {
+  width: 100%;
+  background-color: #ffffff;
+  color: #FF9F3E;
+  padding: 5px 20px;
+  margin: 2px 0;
+  cursor: pointer;
+  outline: none;
+  border: none;
+}
+i{
+  padding-right: 10px;
+}
+
+
+/*Kolding som design by*/
+#designpage{
+  width: 80%;
+  margin: 0 auto;
+}
+#by{
+  text-align: center;
+  font-size: 40px;
+}
+#by h1{
+  text-align: center;
+  color: black;
+}
+#centralt{
+  background-image:url(/images/kolding_park.jpg);
+  text-align: center;
+  font-size: 15px;
+  height: 426px;
+  color: white;
+  width: 100%;
+  background-size:cover;
+  background-position: center;
+}
+#design p{
+  text-align: center;
+  padding-top:10px;
+  margin: auto;
+  font-size: 20px;}
+  
+#design h3{
+  padding-top:10px;
+  text-align:center;
+  font-size: 50px}
+
+#centralt{
+      text-align: center;
+  }
+#centralt p{ 
+  font-size: 20px;
+  padding-top:10px;}
+  
+
+#natur{
+  display: grid;
+  background-color: black;
+  grid-template-columns: 1fr 1fr;
+  width: 100%;
+  padding-top: 30px;
+}
+
+#natur img{
+  width: 80%;
+  margin: auto;
+  }
+
+#koldinghus{
+  width: 100%;
+  padding-top: 20px;
+  margin: auto;
+  background-color: black;
+  
+}
+#koldinghus img{
+  width: 100%;
+  padding-top: px 0;
+  
+  height: 450px;
+margin: auto;
+
+}
+
+
+/*Oplev Kolding*/
+#oplevKolding{
+  width: 80%;
+  margin: 0 auto;
+}
+#oplevKolding header{
+  text-align: center;
+  background-color: red;
+  color: white;
+  font-size: 40px;
+}
+#pics{
+ margin: auto;
+ display: grid;
+ grid-template-rows: 1fr;
+ grid-template-columns: 1fr 1fr 1fr;
+ width: 100%;
+ background-color: black;
+}
+#pics img{
+  height: 300px;
+  width: 459px;
+  margin: auto;
+  
+}
+
+#oplevKolding h2{ 
+  text-align: center;
+  font-size: 50px;
+  margin: auto;
+  padding-bottom: 10px;
+}
+#oplevKolding h3{
+  font-size: 20px;
+  text-align: center;
+  margin: auto;
+}
+#oplevKolding p{
+  width: 80%;
+  margin: auto;
+  font-size: 25px;
+  padding-bottom: 10px;
+}
+
+#clubhouse{
+  margin: auto;
+  display: grid;
+  grid-template-rows: 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
+  width: 100%;
+  background-color: black;
+  gap: 20px;
+
+}
+#clubhouse img{
+  height: 300px;
+  width: 459px;
+  margin: auto;
+   
+}
+
+/*LARS*/
+.historiske{
+  width: 80%;
+  margin: 0 auto;
+}
+.container-kolding{
+  display: flex;
+  justify-content: space-around;
+  width: 1466px;
+  margin: 0 auto;
+}
+.historiske h3{
+  font-weight: 700;
+  color: black;
+  text-align: center;
+  font-size: 100px;
+}
+.left-img{
+  width: 834px;
+}
+.left-img img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+.right-text{
+  width: 634px;
+  padding: 50px;
+  box-sizing: border-box;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+.right-text h4{
+  font-size: 50px;
+}
+.historik img{
+  width: 750px;
+  height: 800px;
+}
+
+/*Oplev Danmark*/
+#symbol-section{
+  display: flex;
+  justify-content: center;
+  justify-content: space-evenly;
+  width: 40%;
+  margin: 0 auto;
+  margin-top: 30px;
+  }
+  
+  #symbol-section img{
+      width: 150px;
+  }
+  
+  .img-container{
+      text-align: center;
+  }
+  
+  #mid-section{
+      background-color: #FF9F3E;
+      width: 100%;
+      height: 500px;
+      margin-top: 50px;
+  }
+.mid-slide{
+      display: flex;
+      justify-content: center;
+      justify-content: space-evenly;
+      width: 73%;
+      padding-top: 85px;
+      margin: 0 auto;
+  }
+.midimg{
+      border: 4px solid black;
+      background-color: #ffb56c;
+      border-radius: 20px;
+  }
+  
+  .midimg img{
+      width: 300px;
+      height: 200px;
+      border-bottom: 2px solid black;
+      border-top-left-radius: 20px;
+      border-top-right-radius: 20px;
+  }
+  
+  .midimg p{
+      width: 300px;
+      text-align: center;
+      color: rgb(0, 0, 0);
+      margin-bottom: 8px;
+  }
+  
+  .midimg h3{
+      text-align: center;
+      color: rgb(0, 0, 0);
+      margin: 8px;
+  }
+  
+  #left-arrow input{
+  width: 50px;
+  float: left;
+  margin-top: 220px;
+  padding-left: 150px;
+  }
+  
+  #right-arrow input{
+  margin-top: 220px;
+  width: 50px;
+  float: right;
+  padding-right: 150px;
+}  
+#oplev-danmark-article{
+    margin: 0 auto;
+    padding: 50px;
+    width: 50%;
+  }
+  
+  #oplev-danmark-contents h2{
+    text-align: center;
+    font-size: 2em;
+  }
+  
+  #oplev-danmark-contents p{
+    text-align: center;
+    padding: 20px;
+    font-size: 20px;
+  }
+
+/* WEBSHOP */
+
+#shop-header {
+  background-image: url("/img/shopping1.jpg");
+  width: 80%;
+  height: 400px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0 auto;
+}
+
+.shop-h2 {
+  font-size: 50px;
+  font-weight: bold;
+  color: rgb(136, 136, 136);
+  width: 100%;
+  text-align: center;
+  padding: 30px;
+}
+
+#sale-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+  gap: 25px;
+  grid-template-areas: "sale1 sale2 sale3";
+  max-width: 60%;
+  margin: 0 auto;
+  padding-top: 25px;
+}
+
+#sale-container>div>img {
+  height: 160px;
+  width: 250px;
+}
+
+#shop-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  height: 655px;
+  gap: 25px;
+  grid-template-areas: "shop1 shop2 shop3 shop4" "shop5 shop6 shop7 shop8";
+  max-width: 80%;
+  margin: 0 auto;
+}
+
+.chutima {
+  color: #34A530;
+  padding: 10px 30px;
+  background-color: #ffffff93;
+  font-size: 30px;
+}
+
+.chutima:hover {
+  cursor: pointer;
+  color: blue;
+  background-color: burlywood;
+}
+
+.shop1 {
+  grid-area: shop1;
+  background-image: url(/img/Venborgkeramike1.jpg);
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+
+.shop2 {
+  grid-area: shop2;
+  background-image: url(/img/Venborgkeramike2.jpg);
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+
+.shop3 {
+  grid-area: shop3;
+  background-image: url(/img/Venborgkeramike3.jpg);
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+
+.shop4 {
+  grid-area: shop4;
+  background-image: url(/img/Venborgkeramike4.jpg);
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+
+.shop5 {
+  grid-area: shop5;
+  background-image: url(/img/Venborgkeramike5.jpg);
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+
+.shop6 {
+  grid-area: shop6;
+  background-image: url(/img/Venborgkeramike6.jpg);
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+
+.shop7 {
+  grid-area: shop7;
+  background-image: url(/img/Venborgkeramike7.jpg);
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+
+.shop8 {
+  grid-area: shop8;
+  background-image: url(/img/Venborgkeramike8.jpg);
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+
+#cool-container2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 25px;
+  row-gap: 70px;
+  height: 655px;
+  grid-template-areas: "cool1 cool2 cool3 cool4" "cool5 cool6 cool7 cool8";
+  max-width: 80%;
+  margin: 0 auto;
+}
+
+#cool-container2>div {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#cool-container2>div>button {
+  margin-top: 265px;
+}
+
+#cool-container2>div>p {
+  width: 100%;
+  text-align: center;
+  position: relative;
+  top: 20px;
+}
+
+.cool1 {
+  grid-area: cool1;
+  background-image: url(/img/cool1.png);
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+
+.cool2 {
+  grid-area: cool2;
+  background-image: url(/img/cool2.png);
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+
+.cool3 {
+  grid-area: cool3;
+  background-image: url(/img/cool3.png);
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+
+.cool4 {
+  grid-area: cool4;
+  background-image: url(/img/cool4.png);
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+
+.cool5 {
+  grid-area: cool5;
+  background-image: url(/img/cool5.png);
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+
+.cool6 {
+  grid-area: cool6;
+  background-image: url(/img/cool6.png);
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+
+.cool7 {
+  grid-area: cool7;
+  background-image: url(/img/cool7.png);
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+
+.cool8 {
+  grid-area: cool8;
+  background-image: url(/img/cool8.png);
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+
+#shop-p {
+  font-size: 25px;
+  color: rgb(51, 49, 49);
+  width: 100%;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+#shop-footer {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  flex-wrap: wrap;
+  margin-top: 200px;
+}
+
+#shop-footer>div {
+  width: 51%;
+  display: flex;
+  justify-content: center;
+}
+
+#shop-footer>div>img {
+  height: 100px;
+  width: 450px;
+}
+
+/*Natteliv */
+#natteliv-header {
+  background-image: url("/images/ntteliv.jpg");
+  width: 80%;
+  height: 400px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0 auto;
+}
+.natteliv-h2 {
+  font-size: 50px;
+  font-weight: bold;
+  color: rgb(136, 136, 136);
+  width: 100%;
+  text-align: center;
+  padding: 30px;
+}
+
+#natteliv-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 25px;
+  grid-template-areas: "natteliv1 natteliv2 natteliv3 natteliv4" "natteliv5 natteliv6 natteliv7 natteliv8";
+  max-width: 80%;
+  margin: 0 auto;
+}
+
+#natteliv-container>div>img {
+  height: 200px;
+  width: 270px;
+}
+
+.natteliv1 {
+  grid-area: natteliv1;
+}
+
+.natteliv2 {
+  grid-area: natteliv2;
+}
+
+.natteliv3 {
+  grid-area: natteliv3;
+}
+
+.natteliv4 {
+  grid-area: natteliv4;
+}
+
+.natteliv5 {
+  grid-area: natteliv5;
+}
+
+.natteliv6 {
+  grid-area: natteliv6;
+}
+
+.natteliv7 {
+  grid-area: natteliv7;
+}
+
+.natteliv8 {
+  grid-area: natteliv8;
+}
+
+/*Child life*/
+#børneliv-container1 img{
+  padding-bottom: 10px;
+  width: 300px;
+  height: 200px;
+  border-radius: 100px;
+}
+
+#børneliv-container2 img{
+border-radius: 100px;
+padding-bottom: 10px;
+width: 300px;
+height: 200px;
+
+}
+
+#børneliv-container1{
+display: flex;
+justify-content: space-evenly;
+
+}
+
+#børneliv-container2{
+display: flex;
+justify-content: space-evenly;
+
+}
+
+#img-container{
+  width: 50%;
+  margin: 0 auto;
+  margin-top: 30px;
+  border: 5px solid #FF9F3E;
+  background-color: #fce7d2;
+  border-radius: 100px;
+  -webkit-box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.28); 
+  box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.28);
+  margin-bottom: 100px;
+}
+
+#børneliv-header h1{
+font-size: 3em
+}
+
+#børneliv-header{
+margin-left: 500px;
+margin-top: 40px;
+}
+
+.img-text{
+padding: 10px;
+width: 300px;
+text-align: center;
+}
+
+#natteliv-link{
+font-size: 4em;
+font-weight: bold;
+padding-left: 730px;
+
+}
